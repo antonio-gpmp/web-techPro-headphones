@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechPro - Audifonos</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600;700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+
+    <header class="header" >
+        <div class="container contenido-header">
+            <div class="imagen-header">
+            
+                <picture id="poster" style="display: none;">
+                    <source
+                        sizes="1920w" 
+                        srcset="img/header.avif 1920w" 
+                        type="image/avif">
+                    <source
+                        sizes="1920w" 
+                        srcset="img/header.webp 1920w" 
+                        type="image/webp">
+                    <source
+                        sizes="1920w" 
+                        srcset="img/header.jpg 1920w" 
+                        type="image/jpeg">
+                    <img loading="lazy" decoding="async" src="img/header.jpg" lazyalt="" width="1000" height="600">
+                </picture> 
+
+                <model-viewer id="toggle-poster" src="img/uploads_files_4888757_GLB_Rockerz+350.glb" ar
+                    ar-modes="webxr scene-viewer quick-look" camera-controls disable-zoom loading="auto" shadow-intensity="1"
+                    tone-mapping="commerce" camera-orbit="-1578deg 90.61deg 9.437m" field-of-view="30deg"
+                    environment-image="img/aircraft_workshop_01_1k.hdr" auto-rotate>
+                </model-viewer>
+
+
+            </div> <!-- imagen-header -->
+            <div class="texto-header">
+                <p class="tagline-producto"> Sonido Profesional</p>
+                <h1 class="nombre-producto degradado-verde" >TechPRO</h1>
+                <p class="descripcion-producto">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus maxime aliquam facere distinctio debitis sequi id quod dolores aliquid unde. Maxime porro dolore fuga cupiditate nemo, minima ex velit delectus.
+                </p>
+                <p class="precio-producto">Desde <span>250€</span></p>
+            </div>
+        </div>
+    </header>
+
+
+
+    <section class="contenedor">
+        <div class="iconos">
+            <div class="icono">
+                <img src="img/icono-sonido.svg" alt="imagen icono sonido">
+                <h3>Gran Sonido</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. amet consectetur adipisicing elit </p>
+            </div>
+            <div class="icono">
+                <img src="img/icono-garantia.svg" alt="imagen icono garantía">
+                <h3>Grantía de por vida</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. amet consectetur adipisicing elit </p>
+            </div>
+            <div class="icono">
+                <img src="img/icono-bateria.svg" alt="imagen icono batería" >
+                <h3>+20 horas de batería</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. amet consectetur adipisicing elit </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sobre-tech">
+        <div class="container sobre-tech-grid">
+            <div class="texto-sobre-tech">
+                <h2>Sobre los <span>TechPro</span></h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore omnis quod doloribus, voluptas, sed porro odio esse in repellendus eaque ab quis dolores id sit eos veniam, obcaecati dignissimos aperiam.</p>
+            </div>
+        </div>
+    </section>
+
+    <main class="container modelos">
+        <h2 class="text-center degradado-verde header-modelos" >Elige tus TechPRO</h2>
+        <div class="listado-modelos">
+            <div class="modelo modelo-x">
+                <h3>TechPRO X</h3>
+                <p class="precio">299€</p>
+            </div>
+            <div class="modelo modelo-y">
+                <h3>TechPRO Y</h3>
+                <p class="precio">399€</p>
+            </div>
+            <div class="modelo modelo-z">
+                <h3>TechPRO Z</h3>
+                <p class="precio">499€</p>
+            </div>
+    
+        </div>
+    </main>
+
+
+    <section class="newsletter">
+        <div class="contenido-newsletter container">
+            <div class="texto-newsletter">
+                <h2>Recibe Actualizaciones</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi ipsam ducimus eveniet cupiditate, molestias atque exercitationem laudantium rem voluptatem iste suscipit accusantium quam sint enim, sunt autem consequuntur excepturi! Ex.</p>
+                
+                <form class="formulario">
+                    <div class="input">
+                        <input type="email" placeholder="Tu email">
+                    </div>
+
+                    <!-- <input type="submit" value="Inscribirme"> -->
+
+                    <a class="bn39" href="/"><span class="bn39span">Inscribirme</span></a>
+                    
+
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Companía</h4>
+                    <ul>
+                        <li><a href="#">Sobre nosotros</a></li>
+                        <li><a href="#">Nuestros servicois</a></li>
+                        <li><a href="#">Politicas de privacidad</a></li>
+                        <li><a href="#">programa de afiliados</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Ayuda</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">envío</a></li>
+                        <li><a href="#">devoluciones</a></li>
+                        <li><a href="#">estado del pedido</a></li>
+                        <li><a href="#">opciones de pago</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Tienda online</h4>
+                    <ul>
+                        <li><a href="#">modelos</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+   </footer> -->
+
+
+   <footer class="footer">
+    <div class="waves">
+      <div class="wave" id="wave1"></div>
+      <div class="wave" id="wave2"></div>
+      <div class="wave" id="wave3"></div>
+      <div class="wave" id="wave4"></div>
+    </div>
+    <ul class="social-icon">
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-twitter"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a></li>
+    </ul>
+    <ul class="menu">
+      <li class="menu__item"><a class="menu__link" href="#">Inicio</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Sobre nosotros</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Servicios</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Equipo</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Contacto</a></li>
+
+    </ul>
+    <p>&copy;2023 Antonio García-Peñuela Molina-Prados | Todos los derechos reservados</p>
+  </footer>
+
+
+
+
+
+</body>
+
+<script src="Js/index.js"></script>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+<!-- Modal viwer -->
+<script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.3.0/model-viewer.min.js"></script>
+
+</html>

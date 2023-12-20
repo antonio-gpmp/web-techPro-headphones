@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xmlns="http://www.w3.org/2000/svg">
+	<defs>
+	  <linearGradient gradientUnits="userSpaceOnUse" x1="50" y1="9.2" x2="50" y2="90.8" id="gradient-0" spreadMethod="pad" gradientTransform="matrix(0.000127, -1, 0.997179, 0.000128, 0.038513, 99.982949)">
+		<stop offset="0" style="stop-color: rgb(16, 115, 186);"></stop>
+		<stop offset="1" style="stop-color: rgb(0, 218, 85);"></stop>
+	  </linearGradient>
+	</defs>
+	<style type="text/css">
+	  .st0{fill-rule:evenodd;clip-rule:evenodd;fill:#1F1E1E;}
+  </style>
+	<path id="clock" class="st0" d="M50,90.8c22.6,0,40.8-18.3,40.8-40.8S72.6,9.2,50,9.2C27.4,9.2,9.2,27.4,9.2,50
+	  C9.2,72.6,27.4,90.8,50,90.8C50,90.8,50,90.8,50,90.8z M55.1,29.6c0-2.8-2.3-5.1-5.1-5.1s-5.1,2.3-5.1,5.1V50c0,1.4,0.5,2.7,1.5,3.6
+	  L60.8,68c2,2,5.2,2,7.2,0c2-2,2-5.2,0-7.2L55.1,47.9L55.1,29.6z" style="paint-order: fill; fill-rule: evenodd; fill: url(#gradient-0);"></path>
+  </svg>
