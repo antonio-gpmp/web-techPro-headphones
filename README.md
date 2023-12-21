@@ -1,4 +1,4 @@
-# Tienda de Auriculaes Responsive
+# Headphones Responsive Shop
 
 This repository contains the source code of a web page developed with HTML, CSS and JavaScript, which serves as an example of what could be a website for selling headphones.
 
