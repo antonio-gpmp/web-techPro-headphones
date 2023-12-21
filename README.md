@@ -83,7 +83,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contact
 Antonio García-Peñuela Molina-Prados - [@antonio-gpmp](https://www.linkedin.com/in/antonio-gpmp/) - antoniokarpin@hotmail.com
 
-Project Link: [https://github.com/antonio-gpmp/red-social](https://github.com/antonio-gpmp/web-techPro-headphones)
+Project Link: [https://github.com/antonio-gpmp/web-techPro-headphones](https://github.com/antonio-gpmp/web-techPro-headphones)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
