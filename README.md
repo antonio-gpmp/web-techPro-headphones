@@ -26,7 +26,7 @@ This repository contains the source code of a web page developed with HTML, CSS 
     <img src="img/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">web-TiendaMuebles</h3>
+<h3 align="center">web-TechPro</h3>
 
   <p align="center">
     This repository contains the source code of a web page developed with HTML, CSS and JavaScript, which serves as an example of what could be a website for     selling headphones.
@@ -109,7 +109,7 @@ Project Link: [https://github.com/antonio-gpmp/red-social](https://github.com/an
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/antonio-gpmp/
 
-[product-screenshot]: img/web-techPro.png
+[product-screenshot]: img/we-techPro.png
 
 [Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
 [Angular-url]: https://angular.io/
