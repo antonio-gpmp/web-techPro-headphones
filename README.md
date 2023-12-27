@@ -57,7 +57,7 @@ This repository contains the source code of a web page developed with HTML, CSS 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://antonio-gpmp.github.io/web-TiendaMuebles/)
+[![Product Name Screen Shot][product-screenshot]](https://antonio-gpmp.github.io/web-techPro-headphones/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
